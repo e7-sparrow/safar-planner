@@ -1,0 +1,15 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and temporary files
+node_modules/
+*.log
+.DS_Store
+
+# Private setup and migration files (review before uploading)
+ACCOUNT-SETUP.txt
+BLOG-CMS-MIGRATION.sql
+SUPABASE-CMS-MIGRATION.sql
+USER-ACCOUNTS-MIGRATION.sql
